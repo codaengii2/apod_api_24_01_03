@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+## 기획서
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. 제작의도
 
-## Available Scripts
+- 매일 업데이트되는 우주사진과 관련 정보를 볼 수 있는 앱
 
-In the project directory, you can run:
+## 2. 기술스택(stack)
 
-### `npm start`
+- HTML, css, javascript, React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 3. 서비스 목표
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 매일 새로운 우주사진을 흥미로운 정보와 함께 볼 수 있음
+- 신비한 사진 경험
 
-### `npm test`
+## 4. 사이트맵 구성 이미지
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- https://flourishing-sunburst-8f954d.netlify.app/
+  https://nasa-apod-api-omega.vercel.app/
 
-### `npm run build`
+## 5. 클라이언트 요구사항 분석
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 매일 새로운 우주사진 표시
+- 간단한 조작으로 사용
+- 다양한 정보제공
+- 사진클릭시 고화질 사진 다운로드 / 공유 기능
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## day1 2023 - 12 - 29 (금)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ui 구성
+- 로드맵 작성
 
-### `npm run eject`
+## day2 2023 - 12 - 30 (토)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- apod api 연결테스트
+- 기본적인 컴포넌트 구조 생성
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## day3 203 - 12 - 31 (일)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- api 데이터 화면에 표시
+- axios로 데이터 받아오기
+- 데이터 컴포넌트와 기본적인 연결
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## day4 2023 - 1 - 1 (월)
 
-## Learn More
+- 반응형 작업하기
+- 배포
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## npm
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- npm i react-router-dom
+- npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+- npm i axios
+- npm i styled-components
+- npm install @fontsource/open-sans @fontsource/raleway
+- npm i @chakra-ui/icons
+- npm i file-saver
