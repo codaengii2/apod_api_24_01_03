@@ -55,3 +55,4 @@
 - npm install @fontsource/open-sans @fontsource/raleway
 - npm i @chakra-ui/icons
 - npm i file-saver
+- npm i gh-pages -D
