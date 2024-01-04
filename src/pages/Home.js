@@ -106,13 +106,23 @@ export const Home = () => {
                     alignItems={"center"}
                   >
                     <Flex direction={"column"} align="flex-start" h="80vh">
-                      <Text fontSize="2xl" fontWeight="bold" mb={"3"}>
+                      <Text fontSize="2xl" fontWeight="bold">
                         {apodData.title}
                       </Text>
-                      <Text fontSize="md" maxW="500" textAlign={"left"}>
+                      <Text
+                        fontSize="md"
+                        maxW="500"
+                        textAlign={"left"}
+                        mt="3"
+                        mb="3"
+                      >
                         {apodData.explanation}
                       </Text>
+                      <Text fontSize={"2xl"} fontWeight="bold">
+                        {apodData.date}
+                      </Text>
                     </Flex>
+
                     <Center>
                       {apodData.media_type === "image" ? (
                         <Image
