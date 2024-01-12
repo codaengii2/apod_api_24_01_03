@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/apod_api_24_01_03/static/css/main.9617cbdc.css",
-    "main.js": "/apod_api_24_01_03/static/js/main.3c2baa9c.js",
+    "main.js": "/apod_api_24_01_03/static/js/main.e0b4a35c.js",
     "static/media/raleway-latin-400-normal.woff": "/apod_api_24_01_03/static/media/raleway-latin-400-normal.2d503fa5621c16c1641a.woff",
     "static/media/raleway-latin-400-normal.woff2": "/apod_api_24_01_03/static/media/raleway-latin-400-normal.3876dc02f0567fb217e0.woff2",
     "static/media/open-sans-latin-700-normal.woff2": "/apod_api_24_01_03/static/media/open-sans-latin-700-normal.50c16efb37ef13080c94.woff2",
@@ -30,10 +30,10 @@
     "static/media/open-sans-greek-ext-700-normal.woff": "/apod_api_24_01_03/static/media/open-sans-greek-ext-700-normal.346473745ba147539eae.woff",
     "index.html": "/apod_api_24_01_03/index.html",
     "main.9617cbdc.css.map": "/apod_api_24_01_03/static/css/main.9617cbdc.css.map",
-    "main.3c2baa9c.js.map": "/apod_api_24_01_03/static/js/main.3c2baa9c.js.map"
+    "main.e0b4a35c.js.map": "/apod_api_24_01_03/static/js/main.e0b4a35c.js.map"
   },
   "entrypoints": [
     "static/css/main.9617cbdc.css",
-    "static/js/main.3c2baa9c.js"
+    "static/js/main.e0b4a35c.js"
   ]
 }
